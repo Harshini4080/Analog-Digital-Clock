@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(132, 166, 246);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 100px;
+  }
+  
+  .analog,
+  .digital {
+    width: 350px;
+    height: 350px;
+    transition: transform 0.8s ease;
+   }
+  
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius:25px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 0, 165);
+  }
+  
+  .analog:hover,
+  .digital:hover {
+    transform: scale(1.08);
+  }
+
+  
